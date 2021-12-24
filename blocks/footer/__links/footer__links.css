@@ -1,0 +1,13 @@
+.footer__links {
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        float: none;
+        max-width: 186px;
+    }
+}

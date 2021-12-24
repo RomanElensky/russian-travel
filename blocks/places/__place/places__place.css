@@ -1,0 +1,31 @@
+.places__place {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "title website"
+    "image text";
+}
+
+.places__place:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .places__place {
+        margin-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__place {
+        margin-bottom: 50px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+        "title"
+        "website"
+        "image"
+        "text"
+    }
+}
+
