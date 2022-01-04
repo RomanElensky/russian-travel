@@ -4,13 +4,13 @@
     margin: 28px auto auto 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     .header__logo {
         margin: 28px auto auto 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .header__logo {
         width: 142px;
         height: 42px;

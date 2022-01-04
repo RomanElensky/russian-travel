@@ -2,13 +2,13 @@
     margin: 46px 48px 0 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     .header__links {
         margin: 46px 24px 0 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .header__links {
         margin: 30px 16px 0 0;
     }
