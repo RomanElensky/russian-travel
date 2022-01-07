@@ -8,6 +8,13 @@
     margin: 8px 0 0;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    font-family: 'Inter';
+}
+
+@media screen and (max-width: 1120px) {
+    .lead__caption {
+        margin: 8px 0 0 48px;
+    }
 }
 
 @media screen and (max-width: 960px) {
