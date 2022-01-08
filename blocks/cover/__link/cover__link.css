@@ -6,6 +6,9 @@
     text-decoration: none;
     background-image: url(../../../images/cover-trains.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     position: relative;
     min-height: 740px;
 }
